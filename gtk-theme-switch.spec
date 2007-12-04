@@ -2,7 +2,7 @@
 %define version 1.0.1
 %define release %mkrel 4
 
-Summary: 	Switch GTK themes on the fly.
+Summary: 	Switch GTK themes on the fly
 Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
