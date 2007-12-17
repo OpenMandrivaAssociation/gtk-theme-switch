@@ -35,8 +35,14 @@ install switch $RPM_BUILD_ROOT/usr/bin
 install switch.1 $RPM_BUILD_ROOT/usr/share/man/man1/gtk-theme-switch.1
 
 # menu
-cat << EOF > $RPM_BUILD_ROOT/%{_menudir}/%{name}
-?package(%{name}):command="switch" icon="other_configuration.png" needs="X11" section="Configuration/Other" title="GTK Theme Switch" longtitle="Change GTK1 Theme"
+cat << EOF > %buildroot%{_datadir}/applications/mandriva-%{name}.desktop
+[Desktop Entry]
+Type=Application
+Exec=switch
+Icon=other_configuration
+Categories=Settings;
+Name=GTK Theme Switch
+Comment=Change GTK1 Theme
 EOF
 
 
@@ -54,5 +60,5 @@ rm -fr $RPM_BUILD_ROOT
 %defattr(-,root,root,755)
 %{_bindir}/switch
 %{_mandir}/man1/*
-%{_menudir}/*
+%{_datadir}/applications/mandriva-*.desktop
 
