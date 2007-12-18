@@ -35,6 +35,7 @@ install switch $RPM_BUILD_ROOT/usr/bin
 install switch.1 $RPM_BUILD_ROOT/usr/share/man/man1/gtk-theme-switch.1
 
 # menu
+mkdir -p %buildroot%{_datadir}/applications/
 cat << EOF > %buildroot%{_datadir}/applications/mandriva-%{name}.desktop
 [Desktop Entry]
 Type=Application
