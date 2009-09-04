@@ -1,6 +1,6 @@
 %define name gtk-theme-switch
 %define version 1.0.1
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: 	Switch GTK themes on the fly
 Name: 		%{name}
