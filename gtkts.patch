@@ -1,0 +1,10 @@
+--- Makefile.orig	Fri Apr 13 10:57:24 2001
++++ Makefile	Tue Jul 16 21:42:36 2002
+@@ -1,5 +1,5 @@
+-GCC = cc
+-PREFIX=/usr/local
++GCC = gcc
++PREFIX=$RPM_BUILD_ROOT
+ CFLAGS = -O2 -Wall $(shell gtk-config --cflags)
+ LIBS = $(shell gtk-config --libs)
+ VERSION = 1.0.1
