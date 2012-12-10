@@ -68,3 +68,47 @@ rm -fr $RPM_BUILD_ROOT
 %{_mandir}/man1/*
 %{_datadir}/applications/mandriva-*.desktop
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-8mdv2011.0
++ Revision: 619283
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.0.1-7mdv2010.0
++ Revision: 429341
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.0.1-6mdv2009.0
++ Revision: 246711
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Dec 18 2007 Thierry Vignaud <tv@mandriva.org> 1.0.1-4mdv2008.1
++ Revision: 132226
+- auto-convert XDG menu entry
+- kill re-definition of %%buildroot on Pixel's request
+- fix summary-ended-with-dot
+- import gtk-theme-switch
+
+
+* Fri May 12 2006 Frederic Crozat <fcrozat@mandriva.com> 1.0.1-4mdk
+- Fix buildrequires to stop iurt spam
+
+* Sat Feb 01 2003 Lenny Cartier <lenny@mandrakesoft.com 1.0.1-3mdk
+- rebuild
+
+* Tue Jan 16 2003 Laurent Culioli <laurent@pschit.net> 1.0.1-2mdk
+- rebuild
+
+* Tue Jul 30 2002 Lenny Cartier <lenny@mandrakesoft.com> 1.0.1-1mdk
+- wrap too long description
+- fix mandir location
+- fix menu entry (section & default icon)
+- from Austin Acton <aacton@yorku.ca> :
+	- initial package creation for MDK 8.2+
