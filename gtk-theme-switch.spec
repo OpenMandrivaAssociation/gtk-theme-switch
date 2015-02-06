@@ -3,7 +3,7 @@
 Summary: 	Switch GTK themes on the fly
 Name: 		%{name}
 Version: 	1.0.1
-Release: 	9
+Release: 	10
 Source0: 	gtk-theme-switch-1.0.1.tar.bz2
 Patch1:		gtkts.patch
 URL: 		http://www.muhri.net/nav.php3?node=gts
