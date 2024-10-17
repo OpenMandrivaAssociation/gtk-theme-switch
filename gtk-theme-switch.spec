@@ -6,7 +6,7 @@ Version: 	1.0.1
 Release: 	10
 Source0: 	gtk-theme-switch-1.0.1.tar.bz2
 Patch1:		gtkts.patch
-URL: 		http://www.muhri.net/nav.php3?node=gts
+URL: 		https://www.muhri.net/nav.php3?node=gts
 License: 	GPL
 Group: 		Graphical desktop/GNOME
 BuildRoot:      %{_builddir}/%{name}-buildroot
